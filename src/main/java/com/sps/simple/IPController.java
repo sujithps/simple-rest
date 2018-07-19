@@ -16,8 +16,8 @@ public class IPController {
 
         System.out.println("Received IP request & returning  : " + inetAddress.getHostAddress());
 
-        Thread.sleep(10000);
-        
+        Thread.sleep(5000);
+
         return "IP: " + inetAddress.getHostAddress();
     }
 
